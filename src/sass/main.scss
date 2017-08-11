@@ -47,7 +47,6 @@ header{
    background: white;
    margin: 0 auto;
    width: 600px;
-   height: 600px;
      border: 1px solid #ccc;
      border-radius: 3px;
 
@@ -88,5 +87,87 @@ header{
         position: relative;
       }
     }
+   .post-content{
+     img{
+       width: 100%;
+     }
+   }
+
+   .card-footer{
+     box-sizing: border-box;
+     padding: 15px;
+     font-family: 'Open Sans', sans-serif;
+
+     .post-likes{
+       color: #dddddd;
+       font-size: 12px;
+       padding-bottom: 10px;
+     }
+
+     .post-body{
+       p{
+         font-size: 14px;
+         margin: 0;
+         padding: 0 0 5px 0;
+       }
+
+       .username{
+         font-weight: 700;
+       }
+     }
+
+     .post-comments{
+       p{
+         font-size: 14px;
+         margin: 0;
+         padding: 0 0 5px 0;
+       }
+
+       .username{
+         font-weight: 700;
+       }
+     }
+
+     hr{
+       padding: 0;
+     }
+
+     .comment-form{
+       padding-top: 15px;
+
+       .fa{
+         font-size: 24px;
+       }
+
+       .heart{
+         display: inline-block;
+         width: 7%;
+         .fa{
+           position: relative;
+           top: 3px;
+         }
+       }
+
+       .add-comment{
+         display: inline-block;
+         width: 70%;
+         input{
+           padding: 5px;
+           width: 100%;
+           border: 0 solid #ffffff;
+         }
+       }
+
+       .more-options{
+         display: inline-block;
+         width: 7%;
+         float: right;
+         .fa{
+           position: relative;
+           top: 3px;
+         }
+       }
+     }
+   }
  }
 }
